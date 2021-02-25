@@ -1,1 +1,1 @@
-# vijay_projects
+# Machine Learning Coursera files
