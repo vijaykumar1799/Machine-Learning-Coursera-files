@@ -38,7 +38,7 @@ def gradient_descent(features, labels, epochs, learning_rate):
         h_x = np.dot(features, thetas)
         for i in range(len(thetas)):
             thetas[i] -= (learning_rate / m) * sum((h_x - labels) * features[:, i])
-            J.append(compute_cost(features=features, labels=labels, parameters=thetas))
+        J.append(compute_cost(features=features, labels=labels, parameters=thetas))
 
     return thetas, J
 
