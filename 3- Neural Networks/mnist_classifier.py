@@ -113,7 +113,7 @@ def main():
     print(f"Training Data shape: {x_train.shape}    Labels shape: {y_train.shape}")
     print(f"Testing Data shape: {x_test.shape}    Labels shape: {y_test.shape}")
 
-    # display_random_set(x_train, y_train)
+    display_random_set(x_train, y_train)
 
     classes = np.unique(y_train)    # Labels
     y_train_cat = to_categorical(y=y_train)
